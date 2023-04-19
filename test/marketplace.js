@@ -4,7 +4,7 @@ const Marketplace = artifacts.require("Marketplace");
 contract("Marketplace", accounts => {
     const secretKey = "xxxxxxxxxxxxx", nftJSON = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
     let nft, marketplace;
-    
+
 
     beforeEach(async () => {
         // runs before all tests in this file regardless where this line is defined.

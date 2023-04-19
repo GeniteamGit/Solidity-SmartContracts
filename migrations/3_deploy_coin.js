@@ -5,8 +5,8 @@ module.exports = async function (deployer, network) {
     deployer.then(async () => {
         await deployer.deploy(
             Coin,
-            "SFW Token", // name
-            "SFWT", // symbol,
+            "Some Token", // name
+            "SOT", // symbol,
             decimals, // decimals
             1, // initial supply
             100, // cap
